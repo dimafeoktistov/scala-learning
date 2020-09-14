@@ -1,5 +1,6 @@
 package lectures.part2oop
 
-object Exceptions {
-
+object Exceptions extends App {
+  val x: String = null
+  println(x.length)
 }
